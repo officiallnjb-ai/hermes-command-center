@@ -1,0 +1,11 @@
+name: hermes-command-center
+version: 1.0.0
+description: Agent task monitoring, failure detection and safe recovery recommendations.
+author: officiallnjb-ai
+provides_tools:
+  - hcc_add_task
+  - hcc_list_tasks
+  - hcc_update_task
+  - hcc_recovery_advice
+provides_hooks:
+  - post_tool_call
